@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(219, 166, 101);
+      font-size: 30px;
+}
+p{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div{
+    color: blue;
+    background-color: blanchedalmond;
+}
+.head{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.data
+{
+    color: rgb(183, 25, 75);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#copyright
+{
+    color: darkblue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
