@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        *{box-sizing: border-box;}
+        .column{
+            float: left;
+            width: 50px;
+            padding: 20px;
+
+        }
+        .row::after{
+            contain: "";
+            display: table;
+            clear: both;
+        }
+        @media screen and(max-width:990px){
+            .column{
+                width: 60px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>this is my nevbar</h1>
+    <p>my new bar dicribtion 
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi temporibus ipsum laborum aspernatur modi voluptatum suscipit dolor magni maiores nisi saepe optio numquam odit rerum, placeat unde! Amet, earum quisquam.
+    </p><div class="row">
+        <div class="column" style="background-color: bisque;">home</div>
+        <div class="column" style="background-color: bisque;">aout</div>
+        <div class="column" style="background-color: bisque;">courses</div>
+        <div class="column" style="background-color: bisque;"> gailary</div>
+        <div class="column" style="background-color: bisque;">contact</div>
+    </div>
+    
+</body>
+</html>
