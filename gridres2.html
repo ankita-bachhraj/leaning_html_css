@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                  "header header"
+                  "menu content"
+                  "footer footer";
+            grid: 3px;
+            background-color: rgb(72, 137, 210);
+            padding: 10px;
+
+        }
+        .container div{
+            background-color: rgb(103, 78, 128);
+            padding: 10px;
+        }
+        .container div.header{
+            grid-area: header;
+            padding: 10px;
+            border: 2px solid white;
+        }
+         .container div.menu{
+            grid-area: menu;
+            border: 2px solid white;
+            color: azure;
+            
+        }
+         .container div.content{
+            grid-area: content;
+            
+        }
+         .container div.footer{
+            grid-area: footer;
+            border: 2px solid white;
+           
+        }
+        .container a{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h2>my header</h2></div>
+        <div class="menu"><a href="#"></a>
+                          <a href="#"></a>
+                           <a href="#"></a>
+                           <a href="#"></a>
+                        </div>
+        <div class="content"><h3>this is my contains</h3></div>
+        <div class="footer"><h4>footer</h4></div>
+    </div>
+</body>
+</html>
